@@ -6,9 +6,8 @@ Overview:
  - checkboxes
  - dropdown list
 4. Simple structure POM (Page Object Model) in Cypress:
-cypress
- |-pages 
-    |-AmazonHomePage.js (return elements to execute search: textbox, seach button)
-    |-AmazonSearchResultPage.js (return search list )
-tests
- |-AmazonSearchTest.js (execute test by calling these elements from 2 pages )
+ - pages:
+    - AmazonHomePage.js (return elements to execute search: textbox, seach button)
+    - AmazonSearchResultPage.js (return search list )
+ - tests
+    - AmazonSearchTest.js (execute test by calling these elements from 2 pages )
