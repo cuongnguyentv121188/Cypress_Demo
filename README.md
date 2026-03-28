@@ -11,3 +11,4 @@ Overview:
     - AmazonSearchResultPage.js (return search list )
  - tests
     - AmazonSearchTest.js (execute test by calling these elements from 2 pages )
+5. Get Element Data by using cy.wrap()
