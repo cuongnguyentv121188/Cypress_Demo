@@ -12,3 +12,4 @@ Overview:
  - tests
     - AmazonSearchTest.js (execute test by calling these elements from 2 pages )
 5. Get Element Data by using cy.wrap()
+6. Practice using WITHIN and EACH to get an element in a array
