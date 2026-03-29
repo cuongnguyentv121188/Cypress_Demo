@@ -15,7 +15,7 @@ describe ('DemoBlaze Home Page ' , () => { //mocha framework,
     it('should be able to get all card data', () => {
         
         //cy.log(JSON.stringify(response));
-        let aprProductData = apiProduct.response.body.Items
+        let aprProductData = apiProduct
         aprProductData = aprProductData.map(item => {
                 return {
                     itemName: item.title.replace('\n', ''),

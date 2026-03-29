@@ -15,3 +15,4 @@ Overview:
 6. Practice using WITHIN and EACH to get an element in a array
 7. Get Data from API and Verify it (simple GET request)
 8. Practice with Before and BeforeEach, make the code becomes clean and easy to maintain
+9. Use API to login and Verify the HomePage is displayed successful
