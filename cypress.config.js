@@ -7,9 +7,10 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    specPattern: "./cypress/tests/**.*",
-    baseUrl: "https://the-internet.herokuapp.com"
+    //specPattern: "./cypress/tests/**.*", // execute any test files in folder tests
+    specPattern: "./cypress/tests/*/*", 
+    baseUrl: "https://www.demoblaze.com/"
   },
   //set timeout for whole project
-  //defaultCommandTimeout: 10000
+  defaultCommandTimeout: 10000
 });
