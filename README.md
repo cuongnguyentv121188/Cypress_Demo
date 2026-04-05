@@ -17,8 +17,8 @@ Overview:
 8. Practice with Before and BeforeEach, make the code becomes clean and easy to maintain
 9. Use API to login and Verify the HomePage is displayed successful
 10. Practice with Custom Command of Cypress
-11. Practice simple POM and verify elements are visible
+11. Practice simple POM and verify Header elements are visible
 - models/components:
-    - HeaderComponents.js (return elements to verify: logo brand, brand text, header menu list)
+    - HeaderComponents.js (return elements to verify: logo brand, brand text, header menu list, header menu details)
  - tests/components:
     - HeaderTest.js (verify)
