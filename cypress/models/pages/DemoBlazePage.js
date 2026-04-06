@@ -3,7 +3,7 @@ export default class DemoBlazePage {
      // scenario in this case:  get 1 list các card component: getAllCardData() > top down nó xuống (within) > lấy từng cái 1 card trong list (each): _getCardDetails() > reuse lại card element (title, price)
 
 
-    _getCardDetails(){
+    _getCardDetails(){ // for each CardData
         let cardData = {}; // object
         cy.get('h4').then($title => cardData.itemName = $title.text().trim()) //lấy title, gán nó cho itemName property của cardData
         cy.get('h5').then($price => cardData.itemPrice = $price.text().trim())
