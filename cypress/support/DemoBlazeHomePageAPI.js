@@ -6,5 +6,15 @@ export class DemoBlazeHomePageAPI {
         return cy.get('@entries').then(entries => entries.response.body.Items)
     }
 
+    static waitForHomePageLoaded(){
+        this._waitForEntriesRequest();
+    }
+
+    static _waitForEntriesRequest(){
+        cy.intercept('/entries').as('entries') //intercept và đặt alias (tên gợi nhớ) bằng từ khóa AS
+        cy.wait('@entries')
+    }
+
+    
 
 }

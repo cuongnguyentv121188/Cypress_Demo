@@ -4,12 +4,12 @@ describe('Footer Component Test', function() {
 
     let footerComp;
     
-    before(() => {
+    beforeEach(() => {
         cy.visit('/');
         footerComp = new FooterComponent();
     });
 
-    xit('Verify AboutUs Column', () => {
+    it('Verify AboutUs Column', () => {
         const expectedAboutUsData = {
             "header":"About Us",
             "description":"We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality."

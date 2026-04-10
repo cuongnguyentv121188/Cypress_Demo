@@ -24,3 +24,4 @@ Overview:
  - tests/components:
     - HeaderTest.js (verify)
     - FooterTest.js (verify)
+12. Practice with API of getting categories and using String literal
