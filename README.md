@@ -21,7 +21,9 @@ Overview:
 - models/components:
     - HeaderComponents.js (return elements to verify: logo brand, brand text, header menu list, header menu details)
     - FooterComponent.js (return elements to verify: AboutUs and ContactUs data + handle strings)
+    - ProductDetailsComponent.js (return elements to verify: Img, Name, Price and Description of random product)
  - tests/components:
     - HeaderTest.js (verify)
     - FooterTest.js (verify)
+    - ProductDetailsTest.js (Select random product -> verify: Img: be.visible, Name: have.text, Price: contain.text, Description: not.be.empty )
 12. Practice with API of getting categories and using String literal
